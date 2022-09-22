@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Portfolio
 
-> My Portofolio
+> Shows My Portofolio
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Author
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@githubOscarj-8](https://github.com/Oscarj-8)
 
