@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-> Shows My Portofolio
+> Shows My Portfolio
 
 ## Built With
 
