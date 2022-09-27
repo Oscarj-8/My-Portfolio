@@ -271,6 +271,7 @@ li {
 
 .container {
   width: 100%;
+  height: 1150px;
   background: url("../images/Base-about-my-self.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -409,19 +410,30 @@ li {
 }
 
 /* footer and contact me page*/
-
-form {
-  margin-top: 70px;
-  margin-right: 20px;
+.form-div {
+  position: relative;
+  top: -150px;
   background: url("../images/Contact-me.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 779px;
+}
+form {
+  margin-top: 70px;
+  width: 375px;
+  height: 779px;
+  background-image: url("../images/background2.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
-
 form h2 {
+  position: relative;
+  top: 120px;
+  left: 60px;
   color: white;
   font-family: "Poppins";
   font-style: normal;
@@ -431,8 +443,12 @@ form h2 {
 }
 
 form p {
+  position: relative;
+  top: 140px;
+  left: 30px;
   text-align: center;
-  width: 270px;
+  width: 327px;
+  color: white;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -440,7 +456,10 @@ form p {
 }
 
 form input {
-  margin: 10px 0 0 0;
+  position: relative;
+  top: 170px;
+  left: 30px;
+  margin: 10px 0;
   width: 300px;
   height: 30px;
   border-radius: 5px;
@@ -453,9 +472,13 @@ input::placeholder {
 }
 
 textarea {
+  position: relative;
+  top: 170px;
+  height: 150px;
   border-radius: 8px;
   margin: 7px auto;
-  width: 318px;
+  width: 305px;
+  padding: 8px;
 }
 
 textarea::placeholder {
@@ -463,8 +486,9 @@ textarea::placeholder {
 }
 
 form button {
-  /* width: 110px;
-  height: 48px; */
+  position: relative;
+  top: 200px;
+  left: 30px;
   border: none;
   margin-top: 4px;
   border-radius: 8px;
@@ -473,5 +497,5 @@ form button {
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
-  padding: 8px 12px;
+  padding: 10px 12px;
 }
