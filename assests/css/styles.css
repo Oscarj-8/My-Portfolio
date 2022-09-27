@@ -414,7 +414,7 @@ li {
   background: url("../images/Contact-me.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 779px;
+  height: 785px;
 }
 
 form {
@@ -488,7 +488,7 @@ form button {
   top: 200px;
   left: 30px;
   border: none;
-  margin-top: 4px;
+  margin: 4px 0;
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
@@ -511,4 +511,11 @@ button:active {
 button:disabled {
   background-color: white;
   border: 1px solid #5e6c84;
+}
+
+.home-indicator {
+  position: relative;
+  top: 200px;
+  align-self: center;
+  margin: 4px 0;
 }
