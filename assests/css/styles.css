@@ -497,3 +497,18 @@ form button {
   color: #6070ff;
   padding: 10px 12px;
 }
+
+button:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  background-color: white;
+  border: 1px solid #5e6c84;
+}
