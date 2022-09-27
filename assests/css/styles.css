@@ -191,9 +191,9 @@ li {
   position: relative;
   width: 200px;
   top: 20px;
-  /* display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
+  grid-template-rows: 1fr 1fr;
 }
 
 .lang {
@@ -203,8 +203,6 @@ li {
   border: none;
   border-radius: 10px;
   height: 26px;
-  float: left;
-
   font-size: 12px;
   font-weight: 500;
   text-align: center;
@@ -215,7 +213,7 @@ li {
 }
 
 .js-anc {
-  width: 40px;
+  width: 95px;
 }
 
 .buttn {
@@ -409,17 +407,18 @@ li {
   height: 15px;
 }
 
-/* footer and contact me page*/
+/* footer and contact me page */
+
 .form-div {
   position: relative;
-  top: -150px;
   background: url("../images/Contact-me.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 779px;
 }
+
 form {
-  margin-top: 70px;
+  margin-top: -70px;
   width: 375px;
   height: 779px;
   background-image: url("../images/background2.svg");
@@ -435,14 +434,13 @@ form h2 {
   top: 120px;
   left: 60px;
   color: white;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
-form p {
+.form p {
   position: relative;
   top: 140px;
   left: 30px;
