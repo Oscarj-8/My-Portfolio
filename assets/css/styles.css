@@ -37,7 +37,7 @@ nav {
 
 .contaner {
   width: 100%;
-  background: url(../images/header-background-mobile.png);
+  background: url("../images/for mobile V/header-background-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -47,7 +47,7 @@ nav {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  background: url("../images/header-shapes-mobile.png");
+  background: url("../images/for mobile V/header-shapes-mobile.png");
   background-size: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ li {
 .container {
   width: 100%;
   height: 1150px;
-  background: url("../images/Base-about-my-self.png");
+  background: url("../images/for mobile V/Base-about-my-self.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -411,7 +411,7 @@ li {
 
 .form-div {
   position: relative;
-  background: url("../images/Contact-me.png");
+  background: url("../images/for mobile V/Contact-me.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 785px;
@@ -421,7 +421,7 @@ form {
   margin-top: -70px;
   width: 375px;
   height: 779px;
-  background-image: url("../images/background2.svg");
+  background-image: url("../images/for mobile V/background2.svg");
   background-repeat: no-repeat;
   background-position: right center;
   display: flex;
