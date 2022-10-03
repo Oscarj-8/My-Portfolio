@@ -520,6 +520,8 @@ button:disabled {
 }
 
 @media screen and (min-width: 768px) {
+  /* header and first section */
+
   .mobile-nav {
     display: none;
   }
@@ -582,5 +584,11 @@ button:disabled {
   .social-icons {
     width: 40%;
     margin-left: 20%;
+  }
+
+  /* second section */
+
+  .mobile-v-img {
+    display: none;
   }
 }
