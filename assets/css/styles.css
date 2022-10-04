@@ -554,6 +554,7 @@ button:disabled {
     line-height: 20px;
     color: #344563;
   }
+
   .section-1 {
     background: url("../images/for-desktop-V/Headerbg-shapes.svg") no-repeat;
     background-size: contain;
@@ -610,6 +611,7 @@ button:disabled {
   .section-2 {
     justify-items: center;
   }
+
   .myWork {
     width: 60%;
     display: grid;
