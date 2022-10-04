@@ -22,7 +22,6 @@ nav {
   font-size: 18px;
   position: relative;
   color: #6070ff;
-
   text-decoration: none;
   left: 24px;
 }
@@ -71,7 +70,6 @@ h1 {
 
 .about-me {
   width: 87.2%;
-
   font-family: "Poppins", sans-serif;
   position: relative;
   margin-top: 120px;
@@ -130,7 +128,6 @@ li {
 .myWork1 {
   margin-top: -90px;
   background-color: white;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -560,7 +557,6 @@ button:disabled {
   .section-1 {
     background: url("../images/for-desktop-V/Headerbg-shapes.svg") no-repeat;
     background-size: contain;
-
     display: flex;
     align-items: left;
     height: 100vh;
