@@ -114,6 +114,14 @@ li {
   justify-content: center;
 }
 
+.desk-v-text {
+  display: none;
+}
+
+.desk-v-img {
+  display: none;
+}
+
 .myWork {
   border-radius: 15px;
   margin: -80px;
@@ -122,8 +130,7 @@ li {
 .myWork1 {
   margin-top: -90px;
   background-color: white;
-  width: 327px;
-  height: 552px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -590,5 +597,26 @@ button:disabled {
 
   .mobile-v-img {
     display: none;
+  }
+
+  .mobile-v-text {
+    display: none;
+  }
+
+  .desk-v-img {
+    display: block;
+  }
+
+  .desk-v-text {
+    display: block;
+  }
+
+  .section-2 {
+    justify-items: center;
+  }
+  .myWork {
+    width: 60%;
+    display: grid;
+    background-color: #2230d2;
   }
 }
